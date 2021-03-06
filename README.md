@@ -10,6 +10,6 @@
 ##### (EN)
 # CF Solucões SST
 
-**Description:** My girlfriend graduated as a technician in Safety at Work, she is planning to open a company of ergonomics reports with her classmate, I decided to create a website for them.
+**Description:** My girlfriend graduated as a Security technician, she is planning to open a company of ergonomics reports with her classmate, I decided to create a website for them.
 
 **Objective:** Create a website to contact and publicize the company CF Soluções SST.
