@@ -3,25 +3,61 @@
 <html lang="pt-br">
 
 <head>
-<meta charset="UTF-8" />
-<title>CF Soluções SST</title>
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}">
-<link rel="shortcut icon" href="{% static '/img/favicon.ico' %}" type="image/x-icon">
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>CF Soluções SST</title>
+    <style>
+        #corpo {
+            width: 560px;
+            padding: 20px;
+            margin: 40px auto;
+            background: #fff;
+            background: rgba(255, 255, 255, 0.8);
+        }
+
+        body {
+            background: url(sst.jpg) no-repeat center top fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+    </style>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}">
+    <link rel="shortcut icon" href="{% static '/img/favicon.ico' %}" type="image/x-icon">
 </head>
 
-    <body>
-        <!--Barra de título-->
-    <header class="text-container">
-        <!--abaixo link da fonte pokémon personalizada-->
-        <a class="title">
-            <h1>CF Soluções SST</h1>
-        </a>
-    </header>
-            
+<body>
+    <div id="corpo">
+        <header class="text-container">
+            <div class="row">
+                <div class="logo">
+                    <a href=""></a>
+                </div>
+                <nav class="menu">
+                    <ul id="menu-links">
+                        <li class="1">
+                            <a href="">Home</a>
+                        </li>
+                        <li class="1">
+                            <a href="">Quem Somos</a>
+                        </li>
+                        <li class="1">
+                            <a href="">Serviços</a>
+                        </li>
+                        <li class="1">
+                            <a href="">Contato</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    </div>
+    <footer>
+        <!--instagram da empresa-->
+        <p>CONTATO:(99)99999-9999</p>
+    </footer>
+</body>
 
-        <footer><!--instagram da empresa-->
-            <p>CONTATO:(99)99999-9999</p> 
-        </footer>
-    </body>
 </html>
