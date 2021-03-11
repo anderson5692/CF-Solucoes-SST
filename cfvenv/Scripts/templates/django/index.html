@@ -20,12 +20,41 @@
             background-image: linear-gradient(0deg, #e2ffd6 0%, #a4f19e 50%, #7ce974 100%);
             background-repeat: no-repeat;
         }
-        .menu{
-            display: flex;
-        margin: 0;
-        padding: 0;
-        list-style: none;
-        line-height: 1;
+
+        #menu-links {
+            border: none;
+            margin: 0;
+            font: 9px Arial, sans-serif;
+        }
+
+        #menu-links li {
+            list-style: none;
+            margin: 0;
+            display: inline;
+        }
+
+        #menu-links li a {
+            height: 1px;
+            /* IE5.0 bug */
+            padding: 3px 1px;
+            margin: 0;
+            border: 1px solid #f00;
+            background: #999;
+            text-decoration: none;
+        }
+
+        #menu-links li a:link {
+            color: #fff;
+        }
+
+        #menu-links li a:visited {
+            color: #fff;
+        }
+
+        #menu-links li a:hover {
+            background: #ccc;
+            color: #000;
+            border-color: #000;
         }
     </style>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -40,7 +69,7 @@
                 <div class="logo">
                     <a href=""></a>
                 </div>
-                <nav class="menu">
+                <nav id="menu">
                     <ul id="menu-links">
                         <li class="1">
                             <a href="">Home</a>
