@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-{% load static %}
 <html lang="pt-br">
+{% load static %}
 
 <head>
     <meta charset="UTF-8" />
@@ -9,7 +9,7 @@
     <style>
         #corpo {
             width: 1080px;
-            padding: 20px;
+            padding: 0;
             margin: 40px auto;
             background: #fff;
             background: rgba(255, 255, 255, 0.8);
@@ -19,12 +19,26 @@
             background-color: #e2ffd6;
             background-image: linear-gradient(0deg, #e2ffd6 0%, #a4f19e 50%, #7ce974 100%);
             background-repeat: no-repeat;
+            overflow: auto;
+        }
+
+        .text-container {
+            width: 1080px;
+            padding: 10px;
+            background: #143d02b0;
+            background-repeat: no-repeat;
+        }
+        footer {
+            width: 1080px;
+            padding: 10px;
+            background: #143d02b0;
+            background-repeat: no-repeat;
         }
 
         #menu-links {
             border: none;
-            margin: 0;
-            font: 9px Arial, sans-serif;
+            margin: 5px;
+            font: 16px Arial, sans-serif;
         }
 
         #menu-links li {
@@ -34,12 +48,10 @@
         }
 
         #menu-links li a {
-            height: 1px;
-            /* IE5.0 bug */
+            height: 5px;
             padding: 3px 1px;
             margin: 0;
-            border: 1px solid #f00;
-            background: #999;
+            /*background: #999;*/
             text-decoration: none;
         }
 
@@ -52,7 +64,6 @@
         }
 
         #menu-links li a:hover {
-            background: #ccc;
             color: #000;
             border-color: #000;
         }
@@ -67,10 +78,13 @@
         <header class="text-container">
             <div class="row">
                 <div class="logo">
-                    <a href=""></a>
+                    <!--{% static 'img/logo.png' %}-->
                 </div>
                 <nav id="menu">
                     <ul id="menu-links">
+                        <li class="1">
+                            <!--<img src="foto.png" alt="some text" width=40 height=40>-->
+                        </li>
                         <li class="1">
                             <a href="">Home</a>
                         </li>
@@ -87,11 +101,41 @@
                 </nav>
             </div>
         </header>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit consectetur quo fuga modi.
+            Quod, sapiente mollitia maiores officia, amet velit odio sit maxime delectus possimus porro
+            voluptates corporis ab optio!</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit consectetur quo fuga modi.
+            Quod, sapiente mollitia maiores officia, amet velit odio sit maxime delectus possimus porro
+            voluptates corporis ab optio!</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit consectetur quo fuga modi.
+            Quod, sapiente mollitia maiores officia, amet velit odio sit maxime delectus possimus porro
+            voluptates corporis ab optio!</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit consectetur quo fuga modi.
+                Quod, sapiente mollitia maiores officia, amet velit odio sit maxime delectus possimus porro
+                voluptates corporis ab optio!</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit consectetur quo fuga modi.
+                    Quod, sapiente mollitia maiores officia, amet velit odio sit maxime delectus possimus porro
+                    voluptates corporis ab optio!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit consectetur quo fuga modi.
+                        Quod, sapiente mollitia maiores officia, amet velit odio sit maxime delectus possimus porro
+                        voluptates corporis ab optio!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit consectetur quo fuga modi.
+                            Quod, sapiente mollitia maiores officia, amet velit odio sit maxime delectus possimus porro
+                            voluptates corporis ab optio!</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit consectetur quo fuga modi.
+                                Quod, sapiente mollitia maiores officia, amet velit odio sit maxime delectus possimus porro
+                                voluptates corporis ab optio!</p>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit consectetur quo fuga modi.
+                                    Quod, sapiente mollitia maiores officia, amet velit odio sit maxime delectus possimus porro
+                                    voluptates corporis ab optio!</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit consectetur quo fuga modi.
+                                        Quod, sapiente mollitia maiores officia, amet velit odio sit maxime delectus possimus porro
+                                        voluptates corporis ab optio!</p>
+            <footer>
+                <!--instagram da empresa-->
+                <span style="color:#fff">CONTATO:(99)99999-9999</span>
+            </footer>
     </div>
-    <footer>
-        <!--instagram da empresa-->
-        <p>CONTATO:(99)99999-9999</p>
-    </footer>
 </body>
 
 </html>
