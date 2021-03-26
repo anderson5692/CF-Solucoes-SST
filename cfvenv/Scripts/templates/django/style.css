@@ -1,59 +1,74 @@
 ﻿#corpo {
-            width: 1080px;
-            padding: 0;
-            margin: 40px auto;
-            background: #fff;
-            background: rgba(255, 255, 255, 0.8);
-        }
+    width: 1380px;
+    padding: 0;
+    margin: 40px auto;
+    background: #fff;
+    background: rgba(255, 255, 255, 0.8);
+}
 
-        body {
-            background-color: #e2ffd6;
-            background-image: linear-gradient(0deg, #e2ffd6 0%, #a4f19e 50%, #7ce974 100%);
-            background-repeat: no-repeat;
-            overflow: auto;
-        }
+body {
+    background-color: #e2ffd6;
+    background-image: linear-gradient(0deg, #e2ffd6 0%, #a4f19e 50%, #7ce974 100%);
+    background-repeat: no-repeat;
+    overflow: auto;
+}
 
-        .text-container {
-            width: 1080px;
-            padding: 10px;
-            background: #143d02b0;
-            background-repeat: no-repeat;
-        }
-        footer {
-            width: 1080px;
-            padding: 10px;
-            background: #143d02b0;
-            background-repeat: no-repeat;
-        }
+.text-container {
+    width: 1380px;
+    padding: 20px;
+    background: #143d02b0;
+    background-repeat: no-repeat;
+}
 
-        #menu-links {
-            border: none;
-            margin: 5px;
-            font: 16px Arial, sans-serif;
-        }
+footer {
+    width: 1380px;
+    padding: 10px;
+    background: #143d02b0;
+}
 
-        #menu-links li {
-            list-style: none;
-            margin: 0;
-            display: inline;
-        }
+#menu-links {
+    /*display: flex;
+    justify-content: center;*/
+    border: none;
+    margin: 0;
+    margin-left: 380px;
+    font: 16px Arial, sans-serif;
+}
 
-        #menu-links li a {
-            height: 5px;
-            padding: 3px 1px;
-            margin: 0;
-            text-decoration: none;
-        }
+#menu-links li {
+    list-style: none;
+    margin: 0;
+    display: inline;
+}
 
-        #menu-links li a:link {
-            color: #fff;
-        }
+#menu-links li a {
+    height: 5px;
+    padding: 3px 40px;
+    margin: 0px;
+    text-decoration: none;
+}
 
-        #menu-links li a:visited {
-            color: #fff;
-        }
+#menu-links li a:link {
+    color: #fff;
+}
 
-        #menu-links li a:hover {
-            color: #000;
-            border-color: #000;
-        }
+#menu-links li a:visited {
+    color: #fff;
+}
+
+#menu-links li a:hover {
+    color: #000;
+    border-color: #000;
+}
+
+#capa {
+    width: 600px;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+span {
+    margin-left: 580px;
+}
