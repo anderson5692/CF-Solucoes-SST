@@ -31,7 +31,7 @@ footer {
     justify-content: center;*/
     border: none;
     margin: 0;
-    margin-left: 380px;
+    margin-left: 390px;
     font: 16px Arial, sans-serif;
 }
 
@@ -61,7 +61,7 @@ footer {
     border-color: #000;
 }
 
-#capa {
+#CF-Solucoess-SST {
     width: 600px;
     height: 250px;
     display: block;
@@ -70,5 +70,9 @@ footer {
 }
 
 span {
-    margin-left: 580px;
+    margin-left: 590px;
+}
+h2 {
+    color: #000;
+    text-align: center;
 }
