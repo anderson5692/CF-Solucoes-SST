@@ -2,6 +2,9 @@
 ALTERAR: 2a3252 -> Cor do topo
 ALTERAR: ef5455 -> Cor dos links e cabeçalhos
 */
+body {
+    background-color: #e2ffd6;
+}
 
 #branding h1,
 #branding h1 a,
@@ -11,7 +14,7 @@ ALTERAR: ef5455 -> Cor dos links e cabeçalhos
 }
 
 #header {
-    background: #2a3252;
+    background: #143d02b0;
     color: #FFFFFF;
 }
 
@@ -21,31 +24,31 @@ ALTERAR: ef5455 -> Cor dos links e cabeçalhos
 }
 
 a:link, a:visited {
-    color: #ef5455;
+    color: #143d02b0;
 }
 
 .module h2, .module caption, .inline-group h2 {
-    background: #ef5455;
+    background: #143d02b0;
     color: #FFFFFF;
 }
 
 div.breadcrumbs {
-    background: #ef5455;
+    background: #2c8f01;
     color: #FFFFFF;
 }
 
 .paginator a:link, .paginator a:visited {
-    background: #ef5455 !important;
+    background: #2c8f01 !important;
     color: #FFFFFF;
 }
 
 .paginator a:hover {
-    background: #2a3252 !important;
+    background: #143d02b0 !important;
     color: #FFFFFF;
 }
 
 .button.default, input[type=submit].default, .submit-row input.default {
-    background: #ef5455;
+    background: #2c8f01;
 }
 
 .button.default:active,
@@ -54,15 +57,15 @@ input[type=submit].default:active,
 input[type=submit].default:focus,
 .button.default:hover,
 input[type=submit].default:hover {
-    background: #2a3252;
+    background: #2c8f01;
 }
 
 .object-tools a:focus, .object-tools a:hover {
-    background-color: #ef5455;
+    background-color: #2c8f01;
 }
 
 .button, input[type=submit], input[type=button], .submit-row input, a.button {
-    background: #2a3252;
+    background: #2c8f01;
     color: #FFFFFF;
 }
 .button:active,
@@ -74,22 +77,22 @@ input[type=button]:focus,
 .button:hover,
 input[type=submit]:hover,
 input[type=button]:hover {
-    background-color: #ef5455;
+    background-color: #143d02b0;
 }
 
 #changelist-filter li.selected a {
-    color: #ef5455 !important;
+    color: #2c8f01 !important;
 }
 
 #changelist-filter a:focus,
 #changelist-filter a:hover,
 #changelist-filter li.selected a:focus,
 #changelist-filter li.selected a:hover {
-    color: #2a3252 !important;
+    color: #143d02b0 !important;
 }
 
 .selector-chosen h2 {
-    background: #ef5455 !important;
+    background: #2c8f01 !important;
     color: #FFFFFF;
 }
 
@@ -97,5 +100,5 @@ a.active.selector-chooseall:focus,
 a.active.selector-clearall:focus,
 a.active.selector-chooseall:hover,
 a.active.selector-clearall:hover {
-    color: #ef5455 !important;
+    color: #2c8f01 !important;
 }
